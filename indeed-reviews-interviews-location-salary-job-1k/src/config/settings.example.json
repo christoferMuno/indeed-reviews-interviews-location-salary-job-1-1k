@@ -1,0 +1,14 @@
+{
+  "maxConcurrency": 5,
+  "minConcurrency": 1,
+  "maxRequestRetries": 5,
+  "requestTimeoutSeconds": 30,
+  "retryBackoffFactor": 0.5,
+  "monitoringModeForReviews": true,
+  "monitoringStatePath": "data/monitoring_state.json",
+  "targetDate": "2025-01-01",
+  "userAgent": "Mozilla/5.0 (compatible; BitbashIndeedScraper/1.0; +https://bitbash.dev)",
+  "defaultHeaders": {
+    "Accept-Language": "en-US,en;q=0.9"
+  }
+}
