@@ -1,0 +1,20 @@
+input_data = load_json(input_path)
+    settings = load_json(settings_path) or {}
+    proxies_config = load_json(proxies_path) or {}
+
+    http_client = HttpClient(
+        default_timeout=settings.get("requestTimeoutSeconds", 30),
+        max_retries=settings.get("maxRequestRetries", 3),
+        backoff_factor=settings.get("retryBackoffFactor", 0.5),
+        proxies_config=proxies_config,
+    )
+
+    storage = StoragePipeline(output_file=output_path)
+    crawlers = build_crawlers(http_client=http_client, config=settings)
+
+    LOGGER.info("Starting scraping run")
+    process_input(input_data=input_data, crawlers=crawlers, storage=storage)
+    LOGGER.info("Scraping run complete. Output saved to %s", output_path)
+
+if __name__ == "__main__":
+    main()
