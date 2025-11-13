@@ -1,0 +1,12 @@
+{
+  "enabled": false,
+  "proxies": [
+    {
+      "name": "default-residential-pool",
+      "http": "http://user:password@residential-proxy.example.com:8000",
+      "https": "http://user:password@residential-proxy.example.com:8000",
+      "countries": ["US", "GB", "FR", "DE"]
+    }
+  ],
+  "preferredCountry": "US"
+}
