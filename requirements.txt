@@ -1,0 +1,5 @@
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+CMD ["python", "src/main.py", "--input", "data/sample_input.json", "--output", "data/sample_output.json"]
