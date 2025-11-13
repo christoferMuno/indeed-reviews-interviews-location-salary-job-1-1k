@@ -1,0 +1,16 @@
+[
+  {
+    "sectionType": "reviews",
+    "companyName": "Example Corp",
+    "companyUrl": "https://www.indeed.com/cmp/Example-Corp/reviews",
+    "domain": "www.indeed.com",
+    "reviewTitle": "Great place to work",
+    "reviewBody": "Supportive management, exciting projects, but workload can be high.",
+    "reviewRatingOverall": 4.0,
+    "reviewAuthorJobTitle": "Software Engineer",
+    "reviewAuthorStatus": "Current employee",
+    "reviewLocation": "Remote",
+    "reviewSubmissionDate": "January 10, 2025",
+    "scrapedAt": "2025-01-11T10:00:00"
+  }
+]
