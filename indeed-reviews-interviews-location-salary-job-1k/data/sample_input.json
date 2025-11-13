@@ -1,0 +1,24 @@
+{
+  "companies": [
+    {
+      "url": "https://www.indeed.com/cmp/Microsoft/reviews",
+      "sectionType": "reviews"
+    },
+    {
+      "url": "https://www.indeed.com/cmp/Microsoft/jobs",
+      "sectionType": "jobs"
+    },
+    {
+      "url": "https://www.indeed.com/cmp/Microsoft/salaries",
+      "sectionType": "salaries"
+    },
+    {
+      "url": "https://www.indeed.com/cmp/Microsoft/interviews",
+      "sectionType": "interviews"
+    },
+    {
+      "url": "https://www.indeed.com/cmp/Microsoft/faq",
+      "sectionType": "faq"
+    }
+  ]
+}
